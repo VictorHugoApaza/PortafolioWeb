@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07090e">
+    <link rel="icon" href="./assets/icons/favicon/favicon.ico" type="image/x-icon">
+    <title>Victor Hugo | Full Stack Developer</title>
+    <!-- Font Awesome para Iconos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- enlaces de google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- MENÚ SUPERIOR FIJO -->
+    <header class="top-nav">
+      <div class="logo">
+        <span class="code-icon">&lt;/&gt;</span>
+        <span class="logo-text">VITTOR.<b>DEV</b></span>
+      </div>
+      <div class="top-actions">
+        <button class="icon-btn" aria-label="GitHub">
+          <i class="fab id-icon fa-github"></i>
+        </button>
+        <button class="icon-btn" aria-label="Terminal">&gt;_</button>
+      </div>
+    </header>
+
+    <!-- MENÚ INFERIOR DE NAVEGACIÓN DOCK FIJO -->
+    <nav class="bottom-dock">
+      <a href="#home" class="dock-item active" data-section="home">
+        <i class="fas fa-house"></i>
+        <span class="dock-label">HOME</span>
+      </a>
+      <a href="#about" class="dock-item" data-section="about">
+        <i class="fas fa-circle-info"></i>
+        <span class="dock-label">ABOUT</span>
+      </a>
+      <a href="#projects" class="dock-item" data-section="projects">
+        <i class="fas fa-folder-open"></i>
+        <span class="dock-label">PROJECTS</span>
+      </a>
+      <a href="#skills" class="dock-item" data-section="skills">
+        <i class="fas fa-bullseye"></i>
+        <span class="dock-label">SKILLS</span>
+      </a>
+      <a href="#contact" class="dock-item" data-section="contact">
+        <i class="fas fa-id-card"></i>
+        <span class="dock-label">CONTACT</span>
+      </a>
+    </nav>
+
+    <main>
+      <!-- SECCIÓN 1: HOME (IMAGEN 1) -->
+      <section id="home" class="section hero-section">
+        <div class="hero-content">
+          <div class="badge"><span class="dot"></span> DISPONIBLE AHORA</div>
+          <h1 class="hero-title">
+            Víctor Hugo<br />
+            <span class="text-gradient">Full Stack Developer</span>
+          </h1>
+          <p class="hero-subtitle">
+            Desarrollador full-stack especializado en sistemas escalables y
+            soluciones impulsadas por IA. Desarrollo productos digitales de alto
+            rendimiento con precisión y propósito.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-white">Trabajos</a>
+            <a href="https://t.me/vittor" class="btn btn-blue"
+              >Contáctame <i class="fas fa-paper-plane"></i
+            ></a>
+            <div class="social-mini-links">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-x-twitter"></i></a>
+              <a href="#"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Foto con efecto Blanco y Negro -> Color + Zoom al pasar mouse -->
+        <div class="hero-avatar-wrapper">
+          <div class="avatar-border-glow"></div>
+          <div class="avatar-box">
+            <img
+              src="./assets/img/perfilDibujo.jpg"
+              alt="Victor Hugo"
+              class="hero-avatar"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 2: ABOUT (IMAGEN 2 y 3) -->
+      <section id="about" class="section about-section">
+        <div class="section-header">
+          <h2>Quien soy yo</h2>
+          <p>
+            Un recorrido cronológico por la evolución profesional y los hitos del desarrollo de software.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-bio card-glow">
+            <p>
+              Yo soy <strong>Víctor Hugo</strong>, radicado en La Paz, Bolivia.
+              Me desempeño en el desarrollo de sistemas a medida y contribuyo en proyectos <a href="#" class="inline-link">WEB3 | BLOCKCHAIN</a>. Diseño y construyo aplicaciones completas, con un enfoque cada vez mayor en la Inteligencia Artificial. Mitrabajo se centra en construir sistemas escalables, resolver problemas complejos con claridad y ofreceer soluciones prácticas del mundo real.
+          </div>
+          <div class="about-tags">
+            <span class="tag">ESTUDIANTE</span>
+            <span class="tag">PASIÓN POR LA TECNOLOGÍA</span>
+            <span class="tag">APRENDIZ</span>
+            <span class="tag">ESNTUSIASTA DE LINUX</span>
+            <span class="tag">BLOCKCHAIN | WEB3</span>
+            <span class="tag">DESARROLLADOR FULL STACK | MOVIL</span>
+          </div>
+        </div>
+
+        <!-- TIMELINE (IMAGEN 3) -->
+        <div class="timeline-container">
+          <h3 class="timeline-title">TIMELINE</h3>
+          <div class="timeline">
+            <div class="timeline-item card-glow">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">2026</div>
+              <div class="timeline-content">
+                <h4>
+                  Centrado en dominar herramientas avanzadas y prepararse para oportunidades profesiionales.
+                </h4>
+                <a href="#" class="read-insight">+ READ INSIGHT</a>
+              </div>
+            </div>
+
+            <div class="timeline-item card-glow">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">2025</div>
+              <div class="timeline-content">
+                <h4>
+                  Comence a explorar la Inteligencia Artificial y sus aplicaciones prácticas.
+                </h4>
+                <a href="#" class="read-insight">+ READ INSIGHT</a>
+              </div>
+            </div>
+
+            <div class="timeline-item card-glow">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">2024</div>
+              <div class="timeline-content">
+                <h4>
+                  Camino hacia el desarrollo web moderno mediante la creación de proyectos completos.
+                </h4>
+                <a href="#" class="read-insight">+ READ INSIGHT</a>
+              </div>
+            </div>
+
+            <div class="timeline-item card-glow">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">2023</div>
+              <div class="timeline-content">
+                <h4>
+                  Comienzo a explorar el mundo del desarrollo de software a traves de la curiosidad y el sentimiento de aprendizaje autodidacta.
+                </h4>
+                <a href="#" class="read-insight">+ READ INSIGHT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 3: PROJECTS (IMAGEN 4 y 5) -->
+      <section id="projects" class="section projects-section">
+        <div class="section-header">
+          <h2>Proyectos destacados</h2>
+          <p>
+            Una colección de mis trabajos más impactantes, desde aplicaciones web hasta experimentos creativos.
+          </p>
+
+          <div class="filter-tabs">
+            <button class="tab-btn active">TODOS</button>
+            <button class="tab-btn">WEB</button>
+            <button class="tab-btn">BLOCKCHAIN</button>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Tarjeta Proyecto 1 -->
+          <div class="project-card card-glow">
+            <h3 class="card-title">Centro de inteligencia artificial</h3>
+            <p class="card-desc">
+              AI Hub - Asistente multimodelo para contenido y chat.
+            </p>
+            <div class="tech-pills">
+              <span>NextJS</span><span>React</span><span>TypeScript</span
+              ><span>TailwindCSS</span><span>Shadcn</span><span>Tauri</span>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="link-btn"
+                ><i class="fab fa-github"></i> Ver en GitHub</a
+              >
+              <a href="#" class="link-btn live-btn">Abrir proyecto &rarr;</a>
+            </div>
+          </div>
+
+          <!-- Tarjeta Proyecto 2 -->
+          <div class="project-card card-glow">
+            <h3 class="card-title">Hecho hoy</h3>
+            <p class="card-desc">
+              Realiza un seguimiento de lo que logras todos los dias. una cosa a la vez.
+            </p>
+            <div class="tech-pills">
+              <span>NextJS</span><span>React</span><span>TypeScript</span
+              ><span>TailwindCSS</span><span>MongoDB</span>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="link-btn"
+                ><i class="fab fa-github"></i> Ver en GitHub</a
+              >
+              <a href="#" class="link-btn live-btn">Abrir proyecto &rarr;</a>
+            </div>
+          </div>
+
+          <!-- Tarjeta Proyecto 3 -->
+          <div class="project-card card-glow">
+            <h3 class="card-title">Landing Page</h3>
+            <p class="card-desc">Una página web para una unidad educativa.</p>
+            <div class="tech-pills">
+              <span>NextJS</span><span>React</span><span>TypeScript</span
+              ><span>TailwindCSS</span><span>Shadcn</span
+              ><span>Framer-motion</span>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="link-btn"
+                ><i class="fab fa-github"></i> Ver en GitHub</a
+              >
+              <a href="#" class="link-btn live-btn">Abir proyecto &rarr;</a>
+            </div>
+          </div>
+
+          <!-- Tarjeta Proyecto 4 -->
+          <div class="project-card card-glow">
+            <h3 class="card-title">Mapeador porstal</h3>
+            <p class="card-desc">
+              Generador de tarjetas de direcciones digitales bassado en código postal con soporte QR, opciones de exportación. Construido con React y Tailwind.
+            </p>
+            <div class="tech-pills">
+              <span>React</span><span>TailwindCSS</span><span>QRCode</span>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="link-btn"
+                ><i class="fab fa-github"></i> Ver en GitHub</a
+              >
+              <a href="#" class="link-btn live-btn">Abrir proyecto &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="center-btn-container">
+          <button class="btn btn-outline card-glow">
+            Ver más proyectos <i class="fas fa-arrow-up-right-from-square"></i>
+          </button>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 4: SKILLS (IMAGEN 6) -->
+      <section id="skills" class="section skills-section">
+        <div class="section-header">
+          <h2>Mi Stack</h2>
+          <p>
+            Una selección de las tecnologías que utilizo para crear productos de alto rendimiento.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Frontend -->
+          <div class="skill-category card-glow">
+            <span class="category-title">FRONTEND</span>
+            <div class="skill-items">
+              <div class="skill-item">
+                <!-- <i class="fab fa-react tech-icon color-react"></i> -->
+                 <img src="./assets/logos/react_dark.svg" alt="" class="tech-icon">
+                <span>REACT</span>
+              </div>
+              <div class="skill-item">
+                <!-- <i class="fas fa-bolt tech-icon color-vite"></i> -->
+                 <img src="./assets/logos/vite.svg" alt="" class="tech-icon">
+                <span>VITE</span>
+              </div>
+              <div class="skill-item">
+                <!-- <i class="fas fa-wind tech-icon color-tailwind"></i> -->
+                 <img src="./assets/logos/tailwindcss.svg" alt="" class="tech-icon">
+                <span>TAILWINDCSS</span>
+              </div>
+              <div class="skill-item">
+                <!-- <i class="fas fa-N tech-icon"></i> -->
+                 <img src="./assets/logos/nextjs_icon_dark.svg" alt="" class="tech-icon">
+                <span>NEXT.JS</span>
+              </div>
+              <div class="skill-item">
+                <!-- <i class="fab fa-js tech-icon color-ts"></i> -->
+                 <img src="./assets/logos/javascript.svg" alt="" class="tech-icon">
+                <span>JAVASCRIPT</span>
+              </div>
+              <div class="skill-item">
+                <!-- <i class="fab fa-js tech-icon color-ts"></i> -->
+                 <img src="./assets/logos/typescript.svg" alt="" class="tech-icon">
+                <span>TYPESCRIPT</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mobile -->
+          <div class="skill-category card-glow">
+            <span class="category-title">MOBILE</span>
+            <div class="skill-items">
+              <div class="skill-item">
+                <!-- <i class="fas fa-mobile-screen tech-icon color-flutter"></i> -->
+                 <img src="./assets/logos/flutter.svg" alt="icono" class="tech-icon">
+                <span>FLUTTER</span>
+              </div>
+              <div class="skill-item">
+                <!-- <i class="fas fa-mobile-screen tech-icon color-flutter"></i> -->
+                 <img src="./assets/logos/react_dark.svg" alt="icono" class="tech-icon">
+                <span>REACT NATIVE</span>
+              </div>
+              <div class="skill-item">
+                <!-- <i class="fas fa-mobile-screen tech-icon color-flutter"></i> -->
+                 <img src="./assets/logos/expo.svg" alt="icono" class="tech-icon">
+                <span>EXPO</span>
+              </div>
+              <div class="skill-item">
+                <!-- <i class="fas fa-mobile-screen tech-icon color-flutter"></i> -->
+                 <img src="./assets/logos/expo.svg" alt="icono" class="tech-icon">
+                <span>CAPACITOR</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend -->
+          <div class="skill-category card-glow">
+            <span class="category-title">BACKEND</span>
+            <div class="skill-items">
+              <div class="skill-item">
+                <img src="./assets/logos/nodejs.svg" alt="icono" class="tech-icon">
+                <span>NODE.JS</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/logos/expressjs_dark.svg" alt="icono" class="tech-icon">
+                <span>EXPRESS.JS</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/logos/mongodb-icon-dark.svg" alt="icono" class="tech-icon">
+                <span>MONGODB</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/logos/mysql-icon-dark.svg" alt="icono" class="tech-icon">
+                <span>MYSQL</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/logos/postgresql.svg" alt="icono" class="tech-icon">
+                <span>POSTGRESQL</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/logos/java.svg" alt="icono" class="tech-icon">
+                <span>JAVA</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/logos/spring.svg" alt="icono" class="tech-icon">
+                <span>SPRINT BOOT</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/logos/sqlite.svg" alt="icono" class="tech-icon">
+                <span>SQLite</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-category card-glow">
+            <span class="category-title">HERRAMIENTAS</span>
+            <div class="skill-items">
+              <div class="skill-item">
+                <img src="./assets/logos/git.svg" alt="icono" class="tech-icon">
+                <span>GIT</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/logos/github_dark.svg" alt="icono" class="tech-icon">
+                <span>GITHUB</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/logos/vscode.svg" alt="icono" class="tech-icon">
+                <span>VSCODE</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/logos/cursor_dark.svg" alt="icono" class="tech-icon">
+                <span>CURSOR</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/logos/antigravity.svg" alt="icono" class="tech-icon">
+                <span>ANTIGRAVITY</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/logos/python.svg" alt="icono" class="tech-icon">
+                <span>PYTHON</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/logos/docker.svg" alt="icono" class="tech-icon">
+                <span>DOCKER</span>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/logos/notion.svg" alt="icono" class="tech-icon">
+                <span>NOTION</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 5: CONTACTO (IMAGEN 7) -->
+      <section id="contact" class="section contact-section">
+        <div class="section-header">
+          <h2>Póngase en contacto</h2>
+          <p>
+            Construyamos algo grandioso juntos. Siempre disponible a nuevas oportunidades y colaboraciones.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-left">
+            <h3 class="contact-title">
+              Construyamos <span class="highlight-blue">mejores</span> productos.
+            </h3>
+            <p class="contact-desc">
+              Disponible para nuevas oportunidades interesantes o simplemente para una charla de tecnología y desarrollo.
+            </p>
+            <div class="contact-actions">
+              <a href="mailto:contact@example.com" class="btn btn-white"
+                >Iniciar una conversación</a
+              >
+              <a href="#" class="btn btn-outline card-glow"
+                >Reanudar <i class="fas fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="contact-links-list">
+            <a href="#" class="contact-card card-glow">
+              <div class="contact-icon"><i class="fab fa-github"></i></div>
+              <div class="contact-info">
+                <span class="label">GITHUB</span>
+                <span class="val">github.com/VictorHugo</span>
+              </div>
+            </a>
+
+            <a href="#" class="contact-card card-glow">
+              <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div class="contact-info">
+                <span class="label">LINKEDIN</span>
+                <span class="val">linkedin.com/in/VictorHugo</span>
+              </div>
+            </a>
+
+            <a href="#" class="contact-card card-glow">
+              <div class="contact-icon"><i class="fab fa-x-twitter"></i></div>
+              <div class="contact-info">
+                <span class="label">X</span>
+                <span class="val">x.com/VictorHugo</span>
+              </div>
+            </a>
+
+            <a href="#" class="contact-card card-glow">
+              <div class="contact-icon"><i class="fas fa-link"></i></div>
+              <div class="contact-info">
+                <span class="label">DISCORD</span>
+                <span class="val">Discord</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
